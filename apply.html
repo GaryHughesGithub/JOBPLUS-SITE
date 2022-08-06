@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JOBPLUS</title>
+</head>
+<body>
+    <section>
+        <nav class="nav">
+            <input type="checkbox" class="nav__toggle" id="hamburger" hidden>
+            <ul class="nav__lblock">
+                <li class="nav__hamburger">
+                <label for="hamburger"><img src="images/hamburger.svg" alt=""></label>
+            </li>
+                <li class="nav__logo"><a href="index.html">JOBPLUS</a></li>
+            </ul>
+    
+            <ul class="nav__icons">
+                <li class="nav__magnify"><a href="listing.html"><img src="images/magnify.svg" alt=""></a></li>
+                <li class="nav__notify"><a href="notification.html"><img src="images/notify-active.svg" alt=""></a></li>
+                <li class="nav__saved">
+                    <a href="saved_jobs.html">
+                        <img src="images/saved.svg" alt="">
+                        <span class="nav__savedCount">1</span>
+                    </a>
+                </li>
+                <li class="nav__profile"><a href="profile.html"><img src="images/profile.svg" alt=""></a></li>
+                <li class="nav__exit"><a href="login.html"><img src="images/exit.svg" alt=""></a></li>
+            </ul>
+            <ul class="nav__dropl">
+                <a href="index.html"><li>Home</li></a>
+                <a href="listing.html"><li>Job Listing</li></a>
+                <a href="applications.html"><li>Job Applications</li></a>
+            </ul>
+        </nav>
+        
+        
+
+        <div class="container">  
+            <div class="listing">
+                <div class="filter">
+                    <div class="filter__links">
+                        <h1>Browse by sector</h1>
+                        <ul>
+                            <li>Technology <span>(330)</span></li>
+                            <li>Engineering <span>(234)</span></li>
+                            <li>Accounting <span>(54)</span></li>
+                        </ul>
+                    </div>
+                    <div class="filter__links">
+                        <h1>Browse by location</h1>
+                        <ul>
+                            <li>Wrexham <span>(330)</span></li>
+                            <li>Chester <span>(234)</span></li>
+                            <li>Liverpool <span>(54)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <section>
+                    <div class="listing__card listing__card--apply">
+                        <header class="listing__header">
+                            <h1 class="listing__title">Senior Controls Engineer</h1>
+                            <img class="listing__saved" src="images/star_saved.svg" alt="">
+                            <p class="listing__company">Posted by <span>GCLM Web Development</span></p>
+                        </header>
+
+                        <ul class="listing__items">
+                            <li class="listing__money"><img src="images/money.svg" alt=""><strong>Salary negotiable</strong></span></li>
+                            <li class="listing__location"><img src="images/location.svg" alt="">Wrexham, <strong>Wales</strong></li>
+                            <li class="listing__time"><img src="images/time.svg" alt=""><strong>37</strong> hours per week</li>
+                        </ul>
+
+                        <div class="form">
+                            <input class="form__btn" type="submit" value="Apply now">
+                        </div>
+                    </div>
+
+                    <div class="listing__more">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut mi rutrum, 
+                            bibendum leo a, dignissim nibh. Sed magna justo, convallis blandit sapien ac, 
+                            laoreet scelerisque elit. Donec fermentum nec tortor vitae elementum. 
+                            <br>
+                            <br>
+                            <br>
+                            Vivamus rutrum massa in elit iaculis, in mollis est auctor. Maecenas pretium ipsum 
+                            eu molestie varius. Sed mollis metus a urna aliquet volutpat. Curabitur placerat 
+                            viverra nisi tincidunt viverra.
+                        </p>
+
+                        <h1>Required Skills</h1>
+
+                        <ul class="listing__skills">
+                            <li>PLC Programming</li>
+                            <li>AC/DC Drives</li>
+                            <li>Electrical</li>
+                        </ul>
+
+                        <div class="form">
+                            <input class="form__btn" type="submit" value="Apply now">
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>  
+
+        </div>
+
+        <div class="cookie">
+            <p>
+                Jobplus uses cookies. By continuing you are agreeing to our use of cookies. 
+                <a>Learn More</a>
+            </p>
+            <img src="images/cookies-cancel.svg" alt="">
+        </div>
+    </section>
+
+    <footer class="footer">COPYRIGHT jobplus 2021</footer>
+    
+
+    
+</body>
+</html>

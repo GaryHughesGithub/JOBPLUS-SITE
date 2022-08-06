@@ -1,0 +1,15 @@
+.saved {
+    display: flex;
+    justify-content: space-between;
+    padding: 30rem 20rem 0 20rem;
+    margin-bottom: 20rem;
+
+    a {
+        color: var(--alert);
+        text-decoration: underline;
+    }
+
+    img {
+        margin-right: 10rem;
+    }
+}

@@ -1,0 +1,138 @@
+.listing {
+ margin: 30rem 10rem;
+ color: var(--gamma);
+
+ &__more {
+     h1 {
+        margin: 25rem 0;
+        font-size: 17rem;
+     }
+     
+ }
+
+ &__skills {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10rem;
+     margin-bottom: 20rem;
+     li {
+         background-color: var(--skills);
+         padding: 7rem 9rem;
+         font-size: 14rem;
+         border-radius: 16rem;
+         
+     }
+ }
+ 
+ &__card {
+     border: 1px var(--beta) solid;
+     background-color: var(--light);
+     padding: 15rem;
+     border-radius: 5rem 0 5rem 0;
+     box-shadow: 1rem 2rem 3rem 1rem var(--elements);
+     margin-bottom: 20rem;
+
+    &--apply {
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+
+    }
+
+ }
+
+ &__header {
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto;
+     gap: 5rem;
+
+ }
+
+    &__title {
+        grid-column: 1/2;
+        grid-column: 1/2;
+
+        color: var(--beta);
+        font-size: 17rem;
+    }
+
+    &__saved  {
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        justify-self: right;
+
+        color: var(--beta);
+    }
+
+    &__company  {
+        grid-column: 1/2;
+        grid-row: 2/3;
+
+        font-size: 10rem;
+
+        span {
+            color: var(--beta);
+        }
+
+    }
+    
+    
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10rem;
+
+        margin: 15rem 0;
+        font-size: 14rem;
+
+        li {
+            display: flex;
+            margin-top: 10rem;
+            img {
+                margin-right: 7rem;
+            }
+        }
+
+        li:nth-of-type(2) {
+            justify-self: right;
+        }
+
+    }
+
+    &__detail {
+        font-size: 14rem;
+        line-height: 20rem;
+
+        a {
+            color: var(--beta);
+            text-decoration: underline;
+        }
+    }
+
+    &__cta {
+        font-size: 14rem;
+        text-decoration: underline;
+        display: flex;
+        justify-content: right;
+        
+
+        &--light {
+            color: var(--beta);
+        }
+
+        &--alert {
+            color: var(--alert);
+        }
+    }
+
+    @include respond-to('small') {
+        display: grid;
+        grid-template-columns: min-content 1fr;
+    }
+ }
+
+
+
